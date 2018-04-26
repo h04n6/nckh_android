@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0">
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:id="@+id/textViewQuestion_part3"
+            android:textSize="10pt" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewFlag_part3"
+            android:src="@drawable/ic_blank_flag"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewQuestionValue_part3_1"
+                android:textSize="9pt"
+                android:text="Question 31: how r u today"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup_part3_1">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/a_part3_1"
+                    android:tag="@string/answerA"
+                    android:text="@string/answerA"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b_part3_1"
+                    android:tag="@string/answerB"
+                    android:text="@string/answerB"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/c_part3_1"
+                    android:tag="@string/answerC"
+                    android:text="@string/answerC"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/d_part3_1"
+                    android:tag="@string/answerC"
+                    android:layout_weight="1"
+                    android:text="@string/answerD"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textViewQuestionValue_part3_2"
+                android:textSize="9pt"
+                android:text="Question 31: how r u today"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup_part3_2">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/a_part3_2"
+                    android:tag="@string/answerA"
+                    android:text="@string/answerA"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b_part3_2"
+                    android:tag="@string/answerB"
+                    android:text="@string/answerB"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/c_part3_2"
+                    android:tag="@string/answerC"
+                    android:text="@string/answerC"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/d_part3_2"
+                    android:tag="@string/answerC"
+                    android:text="@string/answerD"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewQuestionValue_part3_3"
+                android:textSize="9pt"
+                android:text="Question 31: how r u today"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:id="@+id/radioGroup_part3_3">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/a_part3_3"
+                    android:tag="@string/answerA"
+                    android:text="@string/answerA"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/b_part3_3"
+                    android:tag="@string/answerB"
+                    android:text="@string/answerB"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/c_part3_3"
+                    android:tag="@string/answerC"
+                    android:text="@string/answerC"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/d_part3_3"
+                    android:tag="@string/answerC"
+                    android:text="@string/answerD"/>
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewCurrentTime_part3"
+            android:layout_marginStart="30dp" />
+
+        <SeekBar
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar_part3"
+            android:indeterminate="false" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSongDuration_part3"
+            android:layout_marginEnd="45dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonPrevious_part3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_previous" />
+
+        <Button
+            android:id="@+id/buttonList_part3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_list" />
+
+        <Button
+            android:id="@+id/buttonAgain_part3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_pause"/>
+
+        <Button
+            android:id="@+id/buttonNext_part3"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_next" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0">
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:id="@+id/textViewQuestion_part5"
+            android:textSize="10pt" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageViewFlag_part5"
+            android:src="@drawable/ic_blank_flag"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="12">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewQuestionValue_part5"
+            android:textSize="10pt"
+            android:text="how r u today"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup_part5">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a_part5"
+                android:tag="@string/answerA"
+                android:text="@string/answerA"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/b_part5"
+                android:tag="@string/answerB"
+                android:text="@string/answerB"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c_part5"
+                android:tag="@string/answerC"
+                android:text="@string/answerC"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/d_part5"
+                android:tag="@string/answerC"
+                android:layout_weight="1"
+                android:text="@string/answerD"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/buttonPrevious_part5"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_previous" />
+
+        <Button
+            android:id="@+id/buttonList_part5"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_list" />
+
+        <Button
+            android:id="@+id/buttonNext_part5"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_next" />
+
+    </LinearLayout>
+
+</LinearLayout>

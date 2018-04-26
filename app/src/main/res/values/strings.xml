@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Toeic</string>
+    <string name="answerA">A. %s</string>
+    <string name="answerB">B. %s</string>
+    <string name="answerC">C. %s</string>
+    <string name="answerD">D. %s</string>
+    <string name="button_next">Next</string>
+    <string name="button_again">Again</string>
+    <string name="button_previous">Previous</string>
+    <string name="button_list">List</string>
+
+    <!-- %s thể hiện chuỗi tiếp theo sẽ được gán vào vị trí đó -->
+    <string name="url_image">http://192.168.43.176/nckh/images/%s</string>
+    <string name="url_sound">http://192.168.43.176/nckh/sounds/%s</string>
+
+    <string name="question">Question %s</string>
+
+    <string name="url_server_part1">http://192.168.43.176/nckh/getdata_part1.php</string>
+    <string name="url_server_part2">http://192.168.43.176/nckh/getdata_part2.php</string>
+    <string name="url_server_part3">http://192.168.43.176/nckh/getdata_part3.php</string>
+    <string name="url_server_part4">http://192.168.43.176/nckh/getdata_part4.php</string>
+    <string name="url_server_part5">http://192.168.43.176/nckh/getdata_part5.php</string>
+    <string name="url_server_part6">http://192.168.43.176/nckh/getdata_part6.php</string>
+    <string name="url_server_part7">http://192.168.43.176/nckh/getdata_part7.php</string>
+
+    <string name="number_question_part1">2</string>
+    <string name="number_question_part2">0</string>
+    <string name="number_question_part3">0</string>
+    <string name="number_question_part4">0</string>
+    <string name="number_question_part5">0</string>
+    <string name="number_question_part6">0</string>
+    <string name="number_question_part7_1">0</string>
+    <string name="number_question_part7_2">0</string>
+
+</resources>
